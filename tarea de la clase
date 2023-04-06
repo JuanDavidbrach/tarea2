@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+
+int par(int m){ 
+ si (m == 0){
+ 	volver 1; 
+ }más{
+ 	Regreso Impar(M-1); 
+ }
+ } 
+  int impar(int m){ 
+ 
+ si (m==0){
+  volver 0;
+ } 
+ más{	
+  Volver Par(M-1);
+ }
+ }
+ 
+ int main(){
+ 	int m;
+ 	printf("ingresa un valor para m");
+ 	scanf("%i",&m);
+ 	printf("su numero es : %i",par(m),impar(m));
+ }
